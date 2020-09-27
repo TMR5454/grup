@@ -1,0 +1,12 @@
+[package]
+name = "grep_cli"
+version = "0.1.0"
+authors = ["TAMURA Dai <kirinode0@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.22.0"
+regex = "1.3.5"
+grep_core = { path = "grep_core" }
