@@ -1,9 +1,9 @@
 use clap::{crate_authors, crate_version, App, Arg};
 
-use std::io::prelude::*;
-use std::path::Path;
 use grep_core::Matcher;
 use std::fs::{metadata, File};
+use std::io::prelude::*;
+use std::path::Path;
 
 pub struct GrepResult {
     pub file_path: String,
